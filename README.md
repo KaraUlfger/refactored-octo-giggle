@@ -1,7 +1,7 @@
 # Daily Planner
 
 ## Description
-
+Work Day Scheduler homework for UW Coding.
 
 ## Acceptance Criteria
 ```md
@@ -21,10 +21,10 @@ THEN the saved events persist
 ```
 
 ## Link to Application
-
+https://karaulfger.github.io/refactored-octo-giggle/
 
 ## Screenshots of Application 
-
+![Screenshot of application](./assets/images/scheduler.png "Kara's Work Day")
 
 ## Credits
 Karathesymbiote and Rev Ghoul, UW Coding Bootcamp Starter Code, and all the wonderful help from Bootcamp Staff and Students
