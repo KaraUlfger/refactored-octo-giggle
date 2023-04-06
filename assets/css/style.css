@@ -1,54 +1,76 @@
+:root {
+  --dark-purple: #2C1026ff;
+  --royal-purple: #7D41A7ff;
+  --picton-blue: #3DAEF1ff;
+  --dark-purple-2: #16152Dff;
+  --hollywood-cerise: #D92BA4ff;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  line-height: 1;
+  background-color: var(--dark-purple-2);
 }
 
 textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
-  border-left: 1px solid black;
+  color: var(--picton-blue);
+  border-left: 1px solid var(--picton-blue);
   padding: 10px;
+}
+
+.freyja {
+  text-align: center;
+  background-color: transparent;
+  color: var(--hollywood-cerise);
+  border-radius: 0;
+  border-bottom: 10px solid var(--picton-blue);
 }
 
 .description {
   white-space: pre-wrap;
+  width: 100%;
 }
 
 .time-block {
+  text-align: center;
   border-radius: 15px;
 }
 
 .row {
-  border-top: 1px solid white;
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid var(--picton-blue);
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  color: var(--picton-blue);
+  border-top: 1px solid var(--picton-blue);
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: var(--dark-purple);
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: var(--hollywood-cerise);
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: var(--royal-purple);
   color: white;
 }
 
 .saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
+  border-left: 1px solid var(--dark-purple-2);
   border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   background-color: #06aed5;
   color: white;
 }
